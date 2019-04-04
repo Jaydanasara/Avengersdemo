@@ -1,0 +1,293 @@
+/* html, body {margin:0;padding:0;height:100%;} */
+.wrapper {
+  
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+
+  background-image:url("./logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+/* 
+.wrapper {
+  padding:0;
+  margin:0;
+  background-image:url("./logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100%;
+  
+
+
+  padding: 20px;
+  
+} */
+
+
+h1{ color: blue;
+
+}
+
+ul{
+  
+padding-right: 200px;
+}
+
+
+
+
+.scroll {
+  
+  margin-top: 110px;
+  margin-right: 10px;
+  right: 0px;
+ 
+
+  padding: 10px;
+  position: absolute;
+  overflow: hidden;
+  height: 650px;
+  width: 500px;
+  /* border: 1px solid orange; */
+}
+
+.scroll a {
+  
+  left:25%;
+  right: 25%;
+
+
+  position: absolute;
+
+  margin: 0;
+  
+  line-height: 50px;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+.topScores{
+  color:blue;
+}
+
+
+
+
+
+h2{ color: blue;
+
+}
+
+
+
+.spider{
+  position: absolute;
+  margin-top: 200px;
+  left: 0px;
+  width: 400px;
+ 
+  padding: 10px;
+}
+
+
+
+
+
+.firebaseui-card-content{
+  margin-top: 180px
+}
+.wr{
+  
+  background-image:url("./logo.png"); 
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat;
+  height:700px
+}
+.turn, .music , .back{
+  width: 30px;
+  height: 30px;
+}
+
+.signOut{
+ margin-left: auto
+}
+
+.back{
+  width: 35px;
+  height: 35px;
+}
+
+.high{
+  height: 80px;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4{
+ color:  #2E3B55;
+ margin: auto;
+ padding: 5px;
+ font-weight: bold;
+ 
+
+}
+
+.paper{
+  background-color: black
+}
+h1{ color: blue;
+
+}
+
+a{
+  text-align: center;
+  color:rgb(51, 211, 240);
+
+}
+a:hover{
+  color: rgb(218, 100, 100)
+}
+
+.board{
+  width: 100%;
+  flex-flow: flex-start;
+  background-color: black;
+}
+
+.profile{
+  width: 70px;
+  height: 70px;
+}
+
+.list-group{
+  color: #fff;
+font-size: 40px;
+
+}
+
+h1{
+  color: rgb(43, 46, 214);
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.homeText{
+ 
+  border:   #2E3B55 solid 5px;
+ margin-left: 15%;
+width: 70%;
+  margin-top: 100px;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: radial-gradient(circle,  grey, black);
+
+}
+.continue{
+   /* font: 72px/1 'Russo One', sans-serif;
+  letter-spacing: -4px;
+  color: rgb(12, 24, 48);
+  text-shadow: 4px 4px 5px red,6px 6px 7px rgba(0,159,227,.7), 8px 8px 9px rgba(255,237,0,1);
+ 
+}
+.continue:hover{
+  color: black 
+} */
+
+   color:black;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 80px;
+  
+  letter-spacing: .1px;
+  margin: .6em auto;
+  text-align: center;
+  text-shadow: -2px -4px 0px #69C9D0, 4px 2px 0px #EE1D52;
+}
+.continue:hover{
+  color: rgb(17, 16, 16)
+} 
+
+/* 
+.homeText h1, h2{
+
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 40px ;
+  font-weight: bolder;
+  margin: 0;
+  padding: 30px;
+  color: black;
+  text-shadow: 3px 3px 0 #E79C10, -3px -3px 0 #D53A33 , -2px -2px 0 #1d9099;
+} */
+.homeText .text,.text2 {
+  text-transform:uppercase;
+  font-size: 40px ;
+  /* font: 72px/1 'Russo One', sans-serif;
+ letter-spacing: -4px;
+  padding:30px;
+  color: black;
+  text-shadow: 4px 4px 5px red,6px 6px 7px rgba(0,159,227,.7), 8px 8px 9px rgba(255,237,0,1); */
+  /* text-shadow:2px 2px 0 rgba(227,6,19,.8), 3px 3px 0 rgba(255,237,0,1),2px 2px 0 rgba(0,159,227,.7) ; */ 
+ 
+  color: black;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 80px;
+ 
+  letter-spacing: 1px;
+  margin: .6em auto;
+  text-align: center;
+  text-shadow:  -2px -4px 0px #69C9D0, 4px 2px 0px #EE1D52;
+  
+}
+
+.wrap{
+ 
+  width: 100wh;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg,  #4267b2,rgb(10, 10, 10), rgb(241, 241, 241) , rgb(233, 31, 31));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 10s ease infinite;
+	animation: Gradient 5s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.homeWrap{
+  height: 700px;
+}
